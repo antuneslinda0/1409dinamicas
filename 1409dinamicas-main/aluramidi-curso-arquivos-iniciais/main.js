@@ -1,11 +1,15 @@
+function TocaSomPom () {
+   document.querySelector('#som_tecla_pom').play();
 
-function tocaSomPom() {
-    document.querySelector('#som_tecla_pom').play();
 }
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
-function tocaSomClap() {
-    document.querySelector('#som_tecla_pom').play();
-}
-document.querySelector('.tecla_pom').onclick = tocaSomClap;
+document.querySelector('.tecla').onclick = TocaSomPom;
 
+function TocaSomClap () {
+    document.querySelector('#som_tecla_Clap').play();
+ 
+ }
+ 
+ document.querySelectorAll('.tecla')
+ 
+ 
